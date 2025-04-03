@@ -1,0 +1,12 @@
+Aqui guardaremos los archivos de codigo.
+
+Métodos
+ejecutar(): Mantiene el bucle del juego activo.
+
+manejar_eventos(): Detecta si el usuario cierra la ventana o presiona teclas.
+
+actualizar(): Llama a self.jugador.mover(teclas), lo que permite el movimiento del jugador.
+
+dibujar(): Pinta el fondo y dibuja al jugador en la pantalla.
+
+salir(): Cierra Pygame cuando el juego termina.
